@@ -144,9 +144,6 @@ src/
     └── test.js             # Test suite
 ```
 
-## 🎬 Demo Video
-
-[Record a video demonstrating the service functionality and code explanation]
 
 ## 🔧 Environment Variables
 
@@ -156,25 +153,3 @@ NODE_ENV=development        # Environment mode
 LOG_LEVEL=info             # Logging level
 ```
 
-## 🚀 Deployment
-
-1. Set environment variables for production
-2. Run database setup: `npm run db:setup`
-3. Start service: `npm start`
-4. Monitor logs for operational status
-
-## 🤝 Contributing
-
-This is a mission-critical service. All contributions must maintain operational security and code quality standards.
-
-## 📄 License
-
-MIT License - Classified for Moonrider Technologies
-
----
-
-**Mission Status**: ✅ Operational  
-**Security Level**: Covert  
-**Last Updated**: 2023  
-
-*"The future depends on what we do in the present." - Doc Brown*
