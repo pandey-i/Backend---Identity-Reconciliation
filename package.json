@@ -1,0 +1,31 @@
+{
+  "name": "identity-reconciliation-service",
+  "version": "1.0.0",
+  "description": "Covert identity reconciliation service for Zamazon.com integration",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node src/tests/test.js",
+    "db:setup": "node src/database/setup.js"
+  },
+  "keywords": [
+    "identity",
+    "reconciliation",
+    "contacts",
+    "zamazon"
+  ],
+  "author": "Moonrider Tech",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
